@@ -1,0 +1,61 @@
+/* Common styles */
+.relative {
+    position: relative;
+}
+
+.absolute-bottom{
+	position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.font-xxsmall {
+	font-size: xx-small;
+}
+
+/* START Vertical layout styles */
+.cf-mpv-image {
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.cf-mpv-project-80 {
+	float: left;
+	width: 80%;
+}
+
+.cf-mpv-project-100 {
+	float: left;
+	width: 100%;
+}
+/* END Vertical layout styles */
+
+
+/* START Horizontal layout styles */
+.cf-mph-project {
+	height: 450px;
+	position: relative;
+}
+
+.cf-mph-caption-info {
+	padding: 0 10px;
+	margin: 10px 0;
+	text-align: left;
+}
+
+.cf-mph-project img {
+	display: block;
+	margin: 0 auto;
+}
+/* END Horizontal layout styles */
